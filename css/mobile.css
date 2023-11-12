@@ -1,0 +1,80 @@
+@media (max-width: 768px) {
+
+    /* Utilities */
+    .btn {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    /* End of Utilities */
+
+    /* Navigation */
+    .main-nav {
+    flex-direction: column;
+    }
+    /* End of Navigation */
+
+    /* Start of Home */
+    .features .features-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .coffee-article .coffee-content {
+        grid-template-columns: auto;
+    }
+
+    .coffee-article .coffee-content .info-right img {
+        border-radius: 0;
+        width: 100%;
+        height: 100%;
+        padding-bottom: 40px;
+    }
+    /* End of Home */
+
+    /* Start of About */
+    .about-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-content > div {
+        padding: 0;
+    }
+
+    .comments {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+     /* Start of About */
+
+     /* Start of Menu */
+    .box {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .box .menu-coffee {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .box .menu-coffee > img,
+    .box .menu-coffee > h4 {
+        padding-right: 10px;
+        margin-bottom: 10px;
+    }
+    /* End of Menu */
+
+    /* Start of Contact Us */
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    /* Start of Contact Us */
+}
